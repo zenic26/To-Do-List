@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    color: #023047;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background: linear-gradient(460deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 29%, rgba(0,212,255,1) 100%);
+}
+
+.container{ 
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    color: white;
+    height: 1000px;
+    margin: 50px;
+    margin-top: 100px;
+    margin-left: 30%;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    
+}
+
+.todocon{
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+#searchbtn{
+    width: 400px;
+    height: 30px;
+    border-radius: 100px;
+    background-color: rgb(189, 184, 184);
+    color: white;
+}
+
+
+button{
+    height: 30px;
+    border-radius: 100px;
+    color: #023047;
+    background-color: #ffb703;
+}
+
+li{
+    padding: 10px;
+    border: 5px;
+    border-radius: 1000px;
+    border-style: groove;
+    width: auto;
+    background-color: #8ecae6;
+    color: #023047;
+    
+
+}
