@@ -14,9 +14,10 @@ function taskw() {
   enter.append(t);
 
   const d = document.createElement("button");
+  d.textContent = "delete";
   t.append(d);
 
-  d.textContent = "delete";
+  
   d.onclick = () => t.remove();
 
   task.value = "";
